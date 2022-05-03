@@ -217,8 +217,10 @@ rules:
       - Vmware
       - VM ware
     prh: （技術用語）
-  - expected: VS Code
-    pattern: VSCode
+  - expected: VSCode
+    patterns:
+      - VS Code
+      - vscode
     prh: （技術用語）
   - expected: WebGL
     patterns:
